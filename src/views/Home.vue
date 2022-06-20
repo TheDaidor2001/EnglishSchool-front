@@ -4,7 +4,9 @@
             <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
                 <!--Content-->
                 <div class="flex flex-1 flex-col items-center lg:items-start">
-                    <h1 class="text-bookmark-red text-4xl md:text-4 lg:text-5xl text-center lg:text-left mb-6 uppercase">English School</h1>
+                    <h1
+                        class="text-bookmark-red text-4xl md:text-4 lg:text-5xl text-center lg:text-left mb-6 uppercase">
+                        English School</h1>
                     <h2 class=" text-bookmark-black text-3xl md:text-4 lg:text-5xl text-center lg:text-left mb-6">Su
                         centro de confianza</h2>
                     <p class="text-stone-400 text-lg text-center lg:text-left mb-6">Lorem ipsum dolor sit amet
@@ -135,7 +137,7 @@
             </div>
         </section>
         <!--Reviews-->
-        <section class="bg-bookmark-main p-10">
+        <section class="bg-bookmark-main p-10 mb-40">
             <div>
                 <h2 class="text-center text-2xl text-white">Reseñas de los Clientes</h2>
             </div>
@@ -146,7 +148,8 @@
                             <h2 class="text-xl mb-3 font-medium">Titulo de la reseña</h2>
                         </div>
                         <div>
-                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
                                 elit. Repudiandae sed vitae tenetur est ipsam. Quaerat vel aperiam id dolores
                                 voluptates?</p>
                         </div>
@@ -165,7 +168,8 @@
                             <h2 class="text-xl mb-3 font-medium">Titulo de la reseña</h2>
                         </div>
                         <div>
-                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
                                 elit. Repudiandae sed vitae tenetur est ipsam. Quaerat vel aperiam id dolores
                                 voluptates?</p>
                         </div>
@@ -180,11 +184,12 @@
                         </div>
                     </div>
                     <div class="flex-1 p-5 bg-white rounded-md">
-                        <div class="text-left">
+                        <div class="text-leftgit">
                             <h2 class="text-xl mb-3 font-medium">Titulo de la reseña</h2>
                         </div>
                         <div>
-                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing
+                            <p class="text-left mb-5 italic text-gray-500">Lorem ipsum dolor sit amet consectetur
+                                adipisicing
                                 elit. Repudiandae sed vitae tenetur est ipsam. Quaerat vel aperiam id dolores
                                 voluptates?</p>
                         </div>
@@ -198,6 +203,49 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+        <!--Noticias-->
+        <section class="container">
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="flex-1">
+                    <div>
+                        <img class="rounded-md" src="../img/kid-playing-with-colorful-wooden-abacus.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <h3 class=" mt-5 text-3xl">Titulo de la Noticia</h3>
+                        <p class="mt-3 text-stone-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                            nemo laboriosam illo inventore iure ad.</p>
+                    </div>
+                    <router-link class="btn btn-main hover:bg-bookmark-white hover:text-black" to="/">Saber más
+                    </router-link>
+
+                </div>
+                <div class="flex-1">
+                    <div>
+                        <img class="rounded-md" src="../img/kid-playing-with-colorful-wooden-abacus.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <h3 class=" mt-5 text-3xl">Titulo de la Noticia</h3>
+                        <p class="mt-3 text-stone-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                            nemo laboriosam illo inventore iure ad.</p>
+                    </div>
+                    <router-link class="btn btn-main hover:bg-bookmark-white hover:text-black" to="/">Saber más
+                    </router-link>
+
+                </div>
+                <div class="flex-1">
+                    <div>
+                        <img class="rounded-md" src="../img/kid-playing-with-colorful-wooden-abacus.jpg" alt="">
+                    </div>
+                    <div class="flex flex-col mb-10">
+                        <h3 class=" mt-5 text-3xl">Titulo de la Noticia</h3>
+                        <p class="mt-3 text-stone-500">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
+                            nemo laboriosam illo inventore iure ad.</p>
+                    </div>
+                    <router-link class="btn btn-main hover:bg-bookmark-white hover:text-black" to="/">Saber más
+                    </router-link>
                 </div>
             </div>
         </section>
