@@ -184,7 +184,7 @@
                         </div>
                     </div>
                     <div class="flex-1 p-5 bg-white rounded-md">
-                        <div class="text-leftgit">
+                        <div class="text-left">
                             <h2 class="text-xl mb-3 font-medium">Titulo de la reseña</h2>
                         </div>
                         <div>
