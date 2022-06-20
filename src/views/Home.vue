@@ -30,7 +30,7 @@
         <section class="bg-bookmark-white py-20 mt-20 mb-30 lg:mt-60">
             <!--Heading-->
             <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
-                <h1 class="text-3xl text-center text-bookmark-main">Servicios</h1>
+                <h2 class="text-3xl text-center text-bookmark-main">Servicios</h2>
                 <p class="text-center text-stone-400 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Debitis dicta officia voluptate cumque eius a obcaecati qui repellendus iste vero.</p>
             </div>
@@ -207,7 +207,8 @@
             </div>
         </section>
         <!--Noticias-->
-        <section class="container">
+        <section class="container mb-40">
+            <h2 class="text-3xl text-center text-bookmark-main mb-10">Últimas Noticias</h2>
             <div class="flex flex-col md:flex-row gap-10">
                 <div class="flex-1">
                     <div>
@@ -249,7 +250,32 @@
                 </div>
             </div>
         </section>
-
+        <!--Contacto-->
+        <section class="container">
+            <div class="flex flex-col md:flex-row gap-5">
+                <div class="flex-1">
+                    <h3 class="text-3xl uppercase mb-5">Contáctanos</h3>
+                    <p class="text-stone-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem doloribus modi nam eum earum aliquid? Deleniti itaque voluptatibus a accusantium!</p>
+                    <div class="flex my-3">
+                        <i class="fas fa-envelope flex items-center mr-3 text-bookmark-main"></i>
+                        <p class="text-bookmark-main text-sm">mail@gmail.com</p>
+                    </div>
+                    <p class="text-md text-stone-500">Ubicación</p>
+                    <p class="text-md text-stone-500">Malabo</p>
+                    <p class="text-md text-stone-500">Guinea Ecuatorial</p>
+                </div>
+                <div class="flex-1 md:mt-10">
+                    <form @submit="">
+                        <div class="flex flex-col">
+                            <input class="p-3 rounded-lg mb-3 border-2 border-stone-300 bg-gray-10 focus:border focus:border-bookmark-main" type="text" name="name" id="name" placeholder="Nombre">
+                            <input class="p-3 rounded-lg mb-3 border-2 border-stone-300 bg-gray-100" type="text" name="email" id="email" placeholder="Email">
+                            <textarea class="p-3 rounded-lg mb-3 border-2 border-stone-300 bg-gray-100 resize-none min-h-full mx-h-20" name="help" id="help" placeholder="¿En qué podemos ayudarte?"></textarea>
+                            <button class="btn btn-main" type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
 
 
 
